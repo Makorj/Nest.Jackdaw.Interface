@@ -10,7 +10,7 @@ namespace Jackdaw
     [Serializable]
     public struct RequestData
     {
-        public RequestCommand commands;
+        public RequestType commands;
         public string parameters;
     }
 
